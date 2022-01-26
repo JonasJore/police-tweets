@@ -1,6 +1,6 @@
 # Police Tweets
 
-Simple command-line app for fetching tweets the for the last 12 hours for a given norwegian police department
+Simple command-line app for fetching tweets for the last 12 hours for a given norwegian police department
 (Only support for Politiet Sør-øst and Politiet i Oslo this far)
 
 ## Usage:
