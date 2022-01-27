@@ -20,7 +20,7 @@ class TweetsModel : ITweetsModel {
 
   override fun getTweetsByIdLastTwelveHours(userId: String): List<Tweet> {
     val formattedUri = uri.format(
-      policeSectionContainer["politietsorost"],
+      policeSectionContainer[userId],
       dateUtil.getInstantNow(),
       dateUtil.getInstantTwelveHoursAgo()
     )
