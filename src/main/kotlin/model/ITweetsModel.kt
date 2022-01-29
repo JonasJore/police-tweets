@@ -1,5 +1,8 @@
 package model
 
+import domain.Tweet
+
 interface ITweetsModel {
-  fun getTweetsByIdLastTwelveHours(userId: String): List<Any>
+  fun getTwitterTimeLine(userId: String): List<Tweet>
+
 }
